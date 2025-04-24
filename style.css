@@ -5,12 +5,21 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+body{
+    margin: 20% 40px;
+}
+
 section.photos{
     display: flex;
     align-items: center;
     justify-content: center;
     img{
-        width: 100%;
-        flex: .3;
+        width: 200px;
+    }
+}
+
+section.text{
+    p::first-line{
+        padding-left: 20px;
     }
 }
